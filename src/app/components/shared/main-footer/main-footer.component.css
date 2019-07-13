@@ -1,0 +1,36 @@
+.footer-nav{
+	letter-spacing: 0.3rem;
+	font-size: 1rem;
+	margin-top: 4rem;
+}
+a {
+	text-decoration: none;
+	color: #4D4D4D;
+}
+.active{
+	color: black;
+	font-size: 1.05rem;
+}
+.copy{
+	width: 1rem;
+	height: 1rem;
+	margin-bottom: 0.3rem;
+	margin-right: 0.5rem;
+}
+.year {
+	font-family: Seravek, sans-serif;
+}
+.powered {
+	font-family: "Josefin Sans", sans-serif;
+	font-weight: 300;
+	letter-spacing: 0.2rem;
+	font-size: 0.7rem;
+	margin-right: 0.4rem;
+	margin-left: 0.4rem ;
+	color: #3B3B3B;
+}
+.company {
+	font-size: 0.9rem;
+	letter-spacing: 0.3rem;
+	color: #3B3B3B;
+}
