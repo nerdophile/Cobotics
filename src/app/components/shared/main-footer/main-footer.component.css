@@ -19,6 +19,8 @@ a {
 }
 .year {
 	font-family: Seravek, sans-serif;
+		/*margin-left: 0.7rem ;*/
+
 }
 .powered {
 	font-family: "Josefin Sans", sans-serif;
@@ -26,10 +28,11 @@ a {
 	letter-spacing: 0.2rem;
 	font-size: 0.7rem;
 	margin-right: 0.4rem;
-	margin-left: 0.4rem ;
+	margin-left: 0.7rem ;
 	color: #3B3B3B;
 }
 .company {
+	margin-top: 0.25rem;
 	font-size: 0.9rem;
 	letter-spacing: 0.3rem;
 	color: #3B3B3B;
