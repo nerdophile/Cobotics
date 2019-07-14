@@ -1,0 +1,29 @@
+.main-header{
+	font-size: 2.2rem;
+	letter-spacing: 0.1rem;
+	font-weight: 400;
+	color : #3B3B3B;
+}
+.main-para{
+	font-family: "Seravek", sans-serif;
+	font-weight: 300;
+	color: #656565;
+	font-size: 1.2rem;
+}
+.highlight-violet{
+	color: #0D3084;
+}
+.learn-more{
+	letter-spacing: 0.3rem;
+	color: #3B3B3B;
+	font-weight: 400;
+	font-size: 1.2rem;
+}
+.pointer{
+	cursor: pointer;
+
+}
+.arrow {
+	width: 4.1rem;
+	margin-bottom: 0.2rem
+}
