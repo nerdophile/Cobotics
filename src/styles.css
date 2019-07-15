@@ -4,3 +4,7 @@
 body {
   font-family: "Josefin Sans", serif;
 }
+.pointer{
+	cursor: pointer;
+
+}
