@@ -8,7 +8,7 @@ import {log} from 'util';
 	styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-	private selectedPdf: any;
+	public selectedPdf: any;
 
 	constructor() {
 	}
