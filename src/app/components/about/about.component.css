@@ -6,33 +6,64 @@
 	line-height: 4.2rem;
 }
 
-.main-header{
+.main-header {
 	font-size: 2.3rem;
 	letter-spacing: 0.1rem;
 	font-weight: 400;
-	color : #3B3B3B;
+	color: #3B3B3B;
 }
-.main-subheader{
+
+.main-subheader {
 	font-family: "Josefin Sans", sans-serif;
 	font-weight: 500;
 	letter-spacing: 0.05rem;
 	color: #798893;
 	font-size: 1.3rem;
 }
-.main-para{
+
+.main-para {
 	font-family: "Seravek", sans-serif;
 	font-weight: 300;
 	letter-spacing: 0.05rem;
 	color: #656565;
 	font-size: 1.1rem;
 }
-.footer{
+
+.footer {
 	color: #4F3E90;
 	letter-spacing: 0.3rem;
 	font-size: 1.5rem;
 	line-height: 2.7rem;
 }
-.contri{
-	color : #3C3C3C;
+
+.contri {
+	color: #3C3C3C;
 	font-size: 1.5rem;
+}
+
+.heading1 {
+	color: #222222;
+	font-weight: 500;
+	font-size: 1.4rem;
+	font-family: Seravek, sans-serif;
+}
+
+.details {
+
+	color: #222222;
+	font-weight: 300;
+	font-size: 1.3rem;
+	font-family: Seravek, sans-serif;
+
+}
+
+.pdf {
+	position: relative;
+}
+
+.view {
+	position: absolute;
+	left: 47%;
+
+	bottom: 0;
 }
