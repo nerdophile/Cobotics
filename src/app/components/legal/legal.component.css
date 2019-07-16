@@ -1,7 +1,7 @@
 .header {
 	color: #3B3B3B;
 	font-size: 3rem;
-	font-family: "Josefin Sans", sans-serif;
+	font-family: "Josefin Sans Bold", sans-serif;
 }
 
 .policy {
@@ -9,7 +9,7 @@
 	white-space: -moz-pre-wrap;
 	white-space: -o-pre-wrap;
 	word-wrap: break-word;
-	color: #000000;
-	font-size: 1rem;
-	font-family: "Josefin Sans", sans-serif;
+	color: rgba(42, 42, 42, 0.86);
+	font-size: 1.3rem;
+	font-family: "Seravek", sans-serif;
 }

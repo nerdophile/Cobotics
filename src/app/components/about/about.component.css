@@ -7,6 +7,7 @@
 }
 
 .main-header {
+	font-family: 'Josefin Sans Bold', serif;
 	font-size: 2.3rem;
 	letter-spacing: 0.1rem;
 	font-weight: 400;
@@ -22,7 +23,7 @@
 }
 
 .main-para {
-	font-family: "Seravek", sans-serif;
+	font-family: "Seravek Light", sans-serif;
 	font-weight: 300;
 	letter-spacing: 0.05rem;
 	color: #656565;
@@ -30,6 +31,7 @@
 }
 
 .footer {
+	font-family: "Josefin Sans Bold", sans-serif;
 	color: #4F3E90;
 	letter-spacing: 0.3rem;
 	font-size: 1.5rem;
@@ -49,7 +51,6 @@
 }
 
 .details {
-
 	color: #222222;
 	font-weight: 300;
 	font-size: 1.3rem;

@@ -1,10 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 
-body {
-  font-family: "Josefin Sans", serif;
+body{
+  font-family: "Josefin Sans", sans-serif !important;
 }
 .pointer{
 	cursor: pointer;
 
+}
+@font-face {
+  font-family: Seravek;
+  src: url('/assets/fonts/Seravek regular.otf') format("opentype");
+}
+
+@font-face {
+  font-family: Seravek Light;
+  src: url('/assets/fonts/Seravek-Light.otf') format("opentype");
+}
+
+
+@font-face {
+  font-family: Josefin Sans;
+  src: url('/assets/fonts/JosefinSans-Regular.ttf') format("truetype");
+}
+
+
+@font-face {
+  font-family: Josefin Sans Bold;
+  src: url('/assets/fonts/JosefinSans-Bold.ttf') format("truetype");
 }
