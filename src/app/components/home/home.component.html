@@ -5,7 +5,7 @@
 				<span class="highlight-violet  ">AI</span> POWERED FUTURE &nbsp; <br> TOGETHER </p>
 			<p class="main-para my-3"> In Cobotics-AI, We firmly believe that Companies can now
 				benefit from AI without heavy investments in resource and infrastructure </p>
-			<p class="learn-more pointer mb-3 mt-5">LEARN MORE
+			<p class="learn-more pointer mb-3 mt-5" [routerLink]="['/services']">LEARN MORE
 				<span>
 					<img src="../../../assets/images/arrow.svg" alt="" class="pointer arrow">
 				</span>
@@ -18,7 +18,7 @@
 	</div>
 	<div class="row d-flex align-items-center my-5">
 		<div class="col-md-6 col-xs-12 text-center mb-3 my-0 py-0">
-			<img src="https://res.cloudinary.com/ducctr5hn/image/upload/w_500,h_500/v1563097983/assets/2_k38oj2.png"
+			<img src="https://res.cloudinary.com/ducctr5hn/image/upload/w_700,h_600/v1563097983/assets/2_k38oj2.png"
 				 alt="">
 		</div>
 		<div class="col-md-5 col-xs-12 text-left  text-xs-center ml-5 ">
@@ -27,9 +27,13 @@
 			<p class="main-para my-3"> We generate and protect business insights that you will
 				need to stay ahead of the curve and stand out amongst
 				your competitors </p>
-			<p class="learn-more pointer mb-3 mt-5">LEARN MORE
+			<p pageScroll href="#learnmore" class="learn-more pointer mb-3 mt-5"
+			>LEARN MORE
 				<span>
-					<img src="../../../assets/images/arrow.svg" alt="" class="pointer arrow">
+					<a pageScroll href="#learnmore">
+											<img src="../../../assets/images/arrow.svg" alt="" class="pointer arrow">
+
+					</a>
 				</span>
 			</p>
 		</div>
@@ -41,14 +45,15 @@
 				<span class="highlight-blue">GOLD</span></p>
 			<p class="main-para my-3">We are data miners, who train algorithms to mine gold out
 				of your data. We specialize in business artificial intelligence </p>
-			<p class="learn-more pointer mb-3 mt-5">LEARN MORE
+			<p class="learn-more pointer mb-3 mt-5" [routerLink]="['/services']"
+			   routerLinkActive="$router_link-active$">LEARN MORE
 				<span>
 					<img src="../../../assets/images/arrow.svg" alt="" class="pointer arrow">
 				</span>
 			</p>
 		</div>
 		<div class="col-md-6 col-xs-12 text-center mb-3 my-0 py-0">
-			<img src="https://res.cloudinary.com/ducctr5hn/image/upload/w_500,h_500/v1563097983/assets/3_bqasca.png"
+			<img src="https://res.cloudinary.com/ducctr5hn/image/upload/w_700,h_600/v1563097983/assets/3_bqasca.png"
 				 alt="">
 		</div>
 	</div>
@@ -61,10 +66,13 @@
 				in an affordable, reliable and secure IT framework </p>
 		</div>
 	</div>
-	<div class="text-center my-5">
+
+
+	<div class="text-center my-5" id="learnmore">
 		<img src="https://res.cloudinary.com/ducctr5hn/image/upload/w_1080,h_800/v1563007198/assets/4_exovy0.png"
 			 alt="">
 	</div>
+
 
 	<div class="text-center my-5 pt-5  row">
 		<div class="col-xs-12 col-md-10 offset-1">

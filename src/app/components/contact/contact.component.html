@@ -1,3 +1,62 @@
-<p>
-  contact works!
-</p>
+<div class="container-fluid my-4">
+	<div class="row">
+		<div class="col-md-5 col-xs-12 d-flex align-items-center ml-3 ">
+			<div class="text-center mt-0 pt-0">
+				<p class="header mb-5 mt-0">CONTACT US</p>
+				<p class="details my-4">For general enquiry, more details and demo reach us via</p>
+				<a class="details"
+				   href="mailto:info@cobotics-ai.com" target="_blank"> Email: info@cobotics-ai.com</a>
+				<p class="details my-4">Phone: +1 770 475 0483</p>
+				<a href="https://www.linkedin.com/in/mamta-kumar"
+				   target="_blank">
+					<img src="../../../../assets/images/linkedin.svg" alt=""
+						 style="width: 1.8rem; height: 1.8rem">
+				</a>
+
+				<a href="https://twitter.com/coboticsai"
+				   target="_blank"
+				   class="ml-4">
+					<img src="../../../../assets/images/twitter.svg" alt=""
+						 style="width: 1.8rem; height: 1.8rem">
+				</a>
+			</div>
+		</div>
+		<div class="col-md-6 col-xs-12 text-center mb-5">
+			<div class="shadow pt-3" style="">
+				<form [formGroup]="contactUsForm" (ngSubmit)="onSubmitForm()">
+
+					<p class="header my-3">GET IN TOUCH</p>
+					<div class="row mt-5 ml-5 mr-5">
+						<div class="col-6">
+							<input type="name" name="firstname" id="firstname" placeholder="First Name"
+								   formControlName="firstname">
+						</div>
+						<div class="col-6">
+							<input type="name" name="lastname" id="lastname" placeholder="Last Name"
+								   formControlName="lastname">
+						</div>
+						<div class="col-12 my-2">
+							<input type="email" name="email" id="Email" placeholder="Email Address"
+								formControlName="email"
+							>
+						</div>
+						<div class="col-12 mb-3">
+							<input type="text" name="subject" id="Subject" placeholder="Subject"
+								formControlName="subject">
+						</div>
+						<div class="col-12 mb-1">
+							​<textarea id="textArea" rows="6" cols="70" formControlName="message" placeholder="Message"></textarea>
+						</div>
+
+
+					</div>
+					<div class="text-center pt-4 pb-4">
+
+						<button type="submit" class="btn btn-outline-light  ">Send Message</button>
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,52 +1,66 @@
-.main-header{
+.main-header {
 	font-size: 2.4rem;
 	letter-spacing: 0.1rem;
 	font-weight: 400;
-	color : #3B3B3B;
+	color: #3B3B3B;
 	font-family: "Josefin Sans Bold", sans-serif;
 }
-.main-para{
+
+.main-para {
 	font-family: "Seravek Light", sans-serif;
 	font-weight: 300;
 	color: #656565;
 	font-size: 1.4rem;
 }
-.highlight-violet{
+
+.highlight-violet {
 	color: #0D3084;
 }
-.learn-more{
+
+.learn-more {
+	font-family: "Josefin Sans Bold", sans-serif;
 	letter-spacing: 0.3rem;
 	color: #3B3B3B;
-	font-weight: 400;
+	font-weight: 600;
 	font-size: 1.4rem;
 }
-.pointer{
+
+.pointer {
 	cursor: pointer;
 
 }
+
 .arrow {
 	width: 4.1rem;
 	margin-bottom: 0.2rem
 }
+
 .highlight-yellow {
 	color: #E08800;
 }
-.highlight-blue{
+
+.highlight-blue {
 	color: #2670D6;
 }
-.highlight-red{
+
+.highlight-red {
 	color: #C70808;
 }
 
-.quest{
+.quest {
 	color: #3B3B3B;
+	font-family: "Josefin Sans SemiBold", sans-serif;
 	font-size: 2rem;
 }
-.quest-para{
+
+.quest-para {
 	font-size: 1.5rem;
+	font-family: "Josefin Sans SemiBold", sans-serif;
+
 }
-.ans{
-	font-family: "Josefin Sans Bold",sans-serif;
+
+.ans {
+	font-family: "Josefin Sans Bold", sans-serif;
 	font-size: 1.8rem;
 	color: #2E2E2E;
 }

@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-	"start": "node Server.js",
+    "start": "node Server.js",
     "heroku-postbuild": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
@@ -23,6 +23,8 @@
     "core-js": "^2.5.4",
     "express": "^4.17.1",
     "jquery": "^3.4.1",
+    "ngx-page-scroll": "^6.0.2",
+    "ngx-page-scroll-core": "^6.0.2",
     "path": "^0.12.7",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",

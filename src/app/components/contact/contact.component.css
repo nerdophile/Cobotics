@@ -1,0 +1,87 @@
+.header {
+	color: #50539A;
+	font-size: 2rem;
+	font-family: "Josefin Sans Bold", sans-serif;
+}
+
+.details {
+	color: #595F6F;
+	font-size: 1.5rem;
+	font-family: "Josefin Sans SemiBold", sans-serif;
+}
+
+input[type=name] {
+	letter-spacing: 0.1rem;
+	width: 15rem;
+	padding: 12px 15px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid #DDDFE7;
+	font-size: 1.1rem;
+	background-color: white;
+	color: #8d8d8d;
+	border-radius: 4px;
+}
+
+input[type=email] {
+	letter-spacing: 0.1rem;
+
+	width: 34rem;
+	padding: 12px 15px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid #DDDFE7;
+	font-size: 1.1rem;
+	background-color: white;
+	color: #8d8d8d;
+	border-radius: 4px;
+}
+
+input[type=text] {
+	letter-spacing: 0.1rem;
+
+	width: 34rem;
+	padding: 12px 15px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 2px solid #DDDFE7;
+	font-size: 1.1rem;
+	background-color: white;
+	color: #8d8d8d;
+	border-radius: 4px;
+}
+
+input::placeholder {
+	letter-spacing: 0.1rem;
+
+	font-family: "Josefin Sans SemiBold", sans-serif;
+	font-size: 0.9rem;
+	color: #595F6F;
+	font-weight: normal;
+}
+
+textarea {
+	width: 34rem;
+	letter-spacing: 0.1rem;
+
+	padding: 12px 15px;
+	font-family: "Josefin Sans SemiBold", sans-serif;
+
+	box-sizing: border-box;
+	border: 2px solid #DDDFE7;
+	border-radius: 4px;
+	color: #595F6F;
+
+
+}
+
+.btn-outline-light {
+	padding: 10px 30px;
+	color: #50539A;
+	font-family: "Josefin Sans SemiBold", sans-serif;
+	letter-spacing: 0.1rem;
+	width: 15rem;
+	border: 1px solid #50539A;
+
+}
+

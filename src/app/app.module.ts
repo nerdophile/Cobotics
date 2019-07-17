@@ -1,3 +1,5 @@
+// tslint:disable:indent
+
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -11,6 +13,9 @@ import { ContactComponent } from './components/contact/contact.component';
 import {RouterModule} from '@angular/router';
 import { MainFooterComponent } from './components/shared/main-footer/main-footer.component';
 import { LegalComponent } from './components/legal/legal.component';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +31,10 @@ import { LegalComponent } from './components/legal/legal.component';
 	imports: [
 		BrowserModule,
 		AppRoutingModule,
-		RouterModule
+		RouterModule,
+		NgxPageScrollModule,
+		FormsModule,
+		ReactiveFormsModule
 	],
   providers: [],
   bootstrap: [AppComponent]
