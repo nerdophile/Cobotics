@@ -1,9 +1,9 @@
 <div class="container-fluid">
 	<div class="row d-flex  my-4">
 		<div class="col-md-4  col-xs-12 text-center mb-3 my-0 py-0 ">
-			<img
-				src="https://res.cloudinary.com/ducctr5hn/image/upload/w_400,h_550/v1563007209/assets/Group_1698_jojrfb.png"
-				alt="">
+			<img class="image"
+				 src="https://res.cloudinary.com/ducctr5hn/image/upload/w_400,h_550/v1563007209/assets/Group_1698_jojrfb.png"
+				 alt="">
 		</div>
 		<div class="col-md-8 col-xs-12 text-left  text-xs-center ">
 			<p class="main-header mb-1">
@@ -44,6 +44,7 @@
 	<div class="row d-flex pt-5 mb-4">
 		<div class="col-md-4  col-xs-12 text-center mb-3 my-0 py-0 ">
 			<img
+				class="image"
 				src="https://res.cloudinary.com/ducctr5hn/image/upload/w_400,h_550/v1563007209/assets/7_rwrifm.png"
 				alt="">
 		</div>
@@ -62,9 +63,9 @@
 				domain driven mining. She has proposed framework, algorithms, evaluation methods and decision making
 				rules that
 				can be understood and acted upon by the business users to make decisions</p>
-			<p class="contri">CONTRIBUTIONS</p>
+			<p class="contri text-center">CONTRIBUTIONS</p>
 			<div class="text-center">
-				<div class="row shadow-sm pdf" style="height: 13.5rem;">
+				<div class="row shadow-sm pdf d-none d-md-inline-flex" style="height: 13.5rem;">
 					<div class="col-1 pointer d-flex align-items-center ">
 						<img src="../../../assets/images/left-inactive.svg" alt="" style="width: 4rem; height: 2rem"
 							 (click)="decrementPdf()">
@@ -74,8 +75,6 @@
 							<p class="heading1 mt-2">"{{ selectedPdf.heading | uppercase}}" </p>
 							<p class="details"> {{ selectedPdf.details | uppercase}}</p>
 						</div>
-
-
 					</div>
 					<div class="col-1 pointer d-flex align-items-center">
 						<img src="../../../assets/images/rightarrow.svg" alt="" style="width: 4rem; height: 2rem"
@@ -86,13 +85,38 @@
 						   style="color : #50539A; letter-spacing: 0.3rem; font-size: 1.3rem">VIEW</a>
 					</div>
 				</div>
-			</div>
+				<div class="shadow-sm  d-block d-md-none">
 
+					<div class="text-center">
+						<img src="../../../assets/images/left-inactive.svg" alt=""
+							 style="width: 2rem; height: 1rem"
+							 (click)="decrementPdf()">
+						<img src="../../../assets/images/rightarrow.svg" alt=""
+							 style="width: 2rem; height: 1rem"
+							 (click)="incrementPdf()">
+					</div>
+					<div class="row  pdf" style="height: 13.5rem;">
+
+						<div class="col-12 d-flex ">
+							<div class="justify-content-center">
+								<p class="heading1 mt-2">"{{ selectedPdf.heading | uppercase}}" </p>
+								<p class="details"> {{ selectedPdf.details | uppercase}}</p>
+							</div>
+						</div>
+						<div class=" view ">
+							<a class="pointer " [href]="selectedPdf.link" target="_blank"
+							   style="color : #50539A; letter-spacing: 0.3rem; font-size: 1.3rem">VIEW</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
 		</div>
 	</div>
 	<div class="row d-flex pt-5 mb-5">
 		<div class="col-md-4  col-xs-12 text-center mb-3 my-0 py-0 ">
 			<img
+				class="image"
 				src="https://res.cloudinary.com/ducctr5hn/image/upload/w_400,h_550/v1563007209/assets/Group_1696_aa371n.png"
 				alt="">
 		</div>

@@ -1,6 +1,6 @@
 <div class="container-fluid my-4">
 	<div class="row">
-		<div class="col-md-5 col-xs-12 d-flex align-items-center ml-3 ">
+		<div class="col-md-5 col-xs-12 d-flex align-items-center ml-3 pt-sm-4 ">
 			<div class="text-center mt-0 pt-0">
 				<p class="header mb-5 mt-0">CONTACT US</p>
 				<p class="details my-4">For general enquiry, more details and demo reach us via</p>
@@ -21,17 +21,17 @@
 				</a>
 			</div>
 		</div>
-		<div class="col-md-6 col-xs-12 text-center mb-5">
-			<div class="shadow pt-3" style="">
+		<div class="col-md-6 col-xs-12 text-center mb-5 pt-sm-5">
+			<div class="shadow-sm pt-3" style="">
 				<form [formGroup]="contactUsForm" (ngSubmit)="onSubmitForm()">
 
 					<p class="header my-3">GET IN TOUCH</p>
-					<div class="row mt-5 ml-5 mr-5">
+					<div class="row mt-5 ml-md-5 mr-md-5 mx-1">
 						<div class="col-6">
 							<input type="name" name="firstname" id="firstname" placeholder="First Name"
 								   formControlName="firstname">
 						</div>
-						<div class="col-6">
+						<div class="col-6 " >
 							<input type="name" name="lastname" id="lastname" placeholder="Last Name"
 								   formControlName="lastname">
 						</div>

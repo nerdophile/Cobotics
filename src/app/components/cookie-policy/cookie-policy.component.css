@@ -1,0 +1,15 @@
+.header {
+	color: #3B3B3B;
+	font-size: 3rem;
+	font-family: "Josefin Sans Bold", sans-serif;
+}
+
+.policy {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	color: rgba(42, 42, 42, 0.86);
+	font-size: 1.3rem;
+	font-family: "Seravek", sans-serif;
+}
