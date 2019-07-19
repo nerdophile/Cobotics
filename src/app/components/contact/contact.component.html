@@ -37,22 +37,25 @@
 						</div>
 						<div class="col-12 my-2">
 							<input type="email" name="email" id="Email" placeholder="Email Address"
-								formControlName="email"
+								   formControlName="email"
 							>
 						</div>
 						<div class="col-12 mb-3">
 							<input type="text" name="subject" id="Subject" placeholder="Subject"
-								formControlName="subject">
+								   formControlName="subject">
 						</div>
 						<div class="col-12 mb-1">
-							​<textarea id="textArea" rows="6" cols="70" formControlName="message" placeholder="Message"></textarea>
+							​<textarea id="textArea" rows="6" cols="70" formControlName="message"
+									   placeholder="Message"></textarea>
 						</div>
 
 
 					</div>
 					<div class="text-center pt-4 pb-4">
 
-						<button type="submit" class="btn btn-outline-light  ">Send Message</button>
+						<button type="submit" class="btn btn-outline-light " [disabled]="!contactUsForm.valid">Send
+							Message
+						</button>
 					</div>
 				</form>
 
