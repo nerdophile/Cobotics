@@ -1,22 +1,112 @@
-.heading {
-	font-family: 'Josefin Sans Bold', serif;
-	font-weight: 700;
-	color: #50539A;
-	font-size: 2.5rem;
-	line-height: 4.2rem;
+@media (min-width: 481px) {
+
+	.heading {
+		font-family: 'Josefin Sans Bold', serif;
+		font-weight: 700;
+		color: #50539A;
+		font-size: 2.5rem;
+		line-height: 4.2rem;
+	}
+
+	.main-header {
+		font-family: 'Josefin Sans Bold', serif;
+		font-weight: 700;
+		font-size: 2.3rem;
+		letter-spacing: 0.1rem;
+		color: #3B3B3B;
+	}
+
+	.main-para {
+		font-family: "Seravek Light", sans-serif;
+		font-weight: 200;
+		letter-spacing: 0.05rem;
+		color: #656565;
+		font-size: 1.6rem;
+	}
+	.second-column{
+		margin-left: 6rem;
+	}
+
+	.heading-margin {
+		margin-top: 5rem;
+		margin-bottom: 5rem;
+	}
+
+	.image-1 {
+		width: 630px;
+		height: 740px;
+		padding-bottom: 2rem;
+
+	}
+
+	.image-2 {
+		padding-top: 2rem;
+
+		padding-bottom: 2rem;
+	}
+
+	.image-3 {
+		padding-top: 2rem;
+
+		padding-bottom: 2rem;
+	}
 }
 
-.main-header{
-	font-family: 'Josefin Sans Bold', serif;
-	font-weight: 700;
-	font-size: 2.3rem;
-	letter-spacing: 0.1rem;
-	color : #3B3B3B;
+@media (max-width: 420px) {
+	.heading-margin {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.heading {
+		font-family: 'Josefin Sans Bold', serif;
+		font-weight: 700;
+		color: #50539A;
+		font-size: 1.4rem;
+		line-height: 2.8rem;
+	}
+
+	.main-header {
+		font-family: 'Josefin Sans Bold', serif;
+		font-weight: 700;
+		font-size: 1.5rem;
+		letter-spacing: 0.1rem;
+		color: #3B3B3B;
+	}
+
+	.main-para {
+		font-family: "Seravek Light", sans-serif;
+		font-weight: 200;
+		letter-spacing: 0.05rem;
+		color: #656565;
+		font-size: 1rem;
+	}
+
+	div {
+		overflow-x: hidden;
+		overflow-y: auto;
+	}
+
+	.image-1 {
+		width: 350px;
+		height: 500px;
+		padding-bottom: 2rem;
+
+	}
+
+	.image-2 {
+		padding-top: 2rem;
+		width: 350px;
+		height: 500px;
+		padding-bottom: 2rem;
+	}
+
+	.image-3 {
+		padding-top: 2rem;
+		width: 350px;
+		height: 500px;
+		padding-bottom: 2rem;
+	}
+
 }
-.main-para{
-	font-family: "Seravek Light", sans-serif;
-	font-weight: 200;
-	letter-spacing: 0.05rem;
-	color: #656565;
-	font-size: 1.6rem;
-}
+
