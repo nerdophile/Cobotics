@@ -88,6 +88,10 @@
 		height: 600px;
 		padding-bottom: 2rem;
 	}
+	.block-diagram{
+		width: 1080px;
+		height: 800px;
+	}
 }
 
 @media (max-width: 420px) {
@@ -177,5 +181,9 @@
 		font-family: "Josefin Sans Bold", sans-serif;
 		font-size: 1.6rem;
 		color: #2E2E2E;
+	}
+	.block-diagram{
+		width: 320px;
+		height: 270px;
 	}
 }
