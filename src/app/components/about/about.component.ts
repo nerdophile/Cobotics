@@ -1,14 +1,23 @@
 // tslint:disable:indent
 import {Component, OnInit} from '@angular/core';
-import {log} from 'util';
+import {
+	animate, state, style, transition, trigger
+} from '@angular/animations';
 
 @Component({
 	selector: 'app-about',
 	templateUrl: './about.component.html',
-	styleUrls: ['./about.component.css']
+	styleUrls: ['./about.component.css'],
+	// animations: [
+	// 	trigger('slide', [
+	// 		state('left', style({transform: 'translateX(4%)'})),
+	// 		state('right', style({transform: 'translateX(-0%)'})),
+	// 		transition('* => *' , animate(300))
+	// 	])]
 })
 export class AboutComponent implements OnInit {
 	public selectedPdf: any;
+	public activePane = 'right';
 
 	constructor() {
 	}
@@ -43,12 +52,15 @@ export class AboutComponent implements OnInit {
 	incrementPdf() {
 		if (this.selectedPdf.id < this.paper.length - 1) {
 			this.selectedPdf = this.paper [this.selectedPdf.id + 1];
+			this.activePane = 'left';
 		}
 	}
 
 	decrementPdf() {
 		if (this.selectedPdf.id > 0) {
 			this.selectedPdf = this.paper [this.selectedPdf.id - 1];
+			this.activePane = 'left';
+			this.activePane = 'right';
 		}
 	}
 }
