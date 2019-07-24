@@ -24,6 +24,7 @@ import {
 	BrowserAnimationsModule
 } from '@angular/platform-browser/animations';
 import {CookieLawModule} from 'angular2-cookie-law';
+import {enableProdMode} from '@angular/core';
 
 
 @NgModule({
@@ -54,6 +55,8 @@ import {CookieLawModule} from 'angular2-cookie-law';
 
 	],
 	providers: [],
+	enableProdMode(),
+
 	bootstrap: [AppComponent]
 })
 export class AppModule {
