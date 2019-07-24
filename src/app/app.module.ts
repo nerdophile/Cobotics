@@ -55,7 +55,6 @@ import {enableProdMode} from '@angular/core';
 
 	],
 	providers: [],
-	enableProdMode(),
 
 	bootstrap: [AppComponent]
 })
