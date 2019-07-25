@@ -19,7 +19,6 @@ a {
 }
 .year {
 	font-family: Seravek, sans-serif;
-		/*margin-left: 0.7rem ;*/
 
 }
 .powered {
@@ -39,6 +38,12 @@ a {
 }
 .nav-item1{
 	color : #777777;
+	letter-spacing: 0.3rem;
+	font-family: "Josefin Sans Bold", sans-serif;
+}
+
+.nav-item1:hover{
+	color : #2f2f2f;
 	letter-spacing: 0.3rem;
 	font-family: "Josefin Sans Bold", sans-serif;
 }

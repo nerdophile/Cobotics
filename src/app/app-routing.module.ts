@@ -19,7 +19,6 @@ const appRoutes: Routes = [
 	{path: 'services', component: ServicesComponent}, // cobotics-ai/services
 	{path: 'legal', component: LegalComponent}, // cobotics-ai/legal
 	{path: 'cookie', component: CookiePolicyComponent} // cobotics-ai/legal
-
 ];
 
 @NgModule({

@@ -30,6 +30,13 @@
 		font-weight: 600;
 		font-size: 1.4rem;
 	}
+	.learn-more:hover {
+		font-family: "Josefin Sans Bold", sans-serif;
+		letter-spacing: 0.3rem;
+		color: #1a1a1a;
+		font-weight: 600;
+		font-size: 1.6rem;
+	}
 
 	.pointer {
 		cursor: pointer;
@@ -153,6 +160,13 @@
 		font-size: 1rem;
 	}
 
+	.learn-more:hover {
+		font-family: "Josefin Sans Bold", sans-serif;
+		letter-spacing: 0.3rem;
+		color: #1a1a1a;
+		font-weight: 600;
+		font-size: 1.2rem;
+	}
 	.highlight-yellow {
 		color: #E08800;
 	}

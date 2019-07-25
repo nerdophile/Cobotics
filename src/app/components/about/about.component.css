@@ -44,12 +44,11 @@
 		font-size: 1.5rem;
 		line-height: 2.7rem;
 	}
-
 	.contri {
 		color: #3C3C3C;
 		font-size: 1.5rem;
+		letter-spacing: 0.2rem;
 		font-family: "Josefin Sans SemiBold", sans-serif;
-
 	}
 
 	.heading1 {
@@ -139,6 +138,7 @@
 	.contri {
 		color: #3C3C3C;
 		font-size: 1.5rem;
+		letter-spacing: 0.3rem;
 		font-family: "Josefin Sans SemiBold", sans-serif;
 	}
 
