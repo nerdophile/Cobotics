@@ -1,15 +1,38 @@
-.header {
-	color: #3B3B3B;
-	font-size: 3rem;
-	font-family: "Josefin Sans Bold", sans-serif;
-}
+@media (min-width: 481px) {
 
-.policy {
-	white-space: pre-wrap;
-	white-space: -moz-pre-wrap;
-	white-space: -o-pre-wrap;
-	word-wrap: break-word;
-	color: rgba(42, 42, 42, 0.86);
-	font-size: 1.3rem;
-	font-family: "Seravek", sans-serif;
+	.header {
+		color: #6a6a6a;
+		font-size: 2.3rem;
+		letter-spacing: 0.2rem;
+		font-family: "Josefin Sans Bold", sans-serif;
+	}
+
+	.policy {
+		white-space: pre-wrap;
+		white-space: -moz-pre-wrap;
+		white-space: -o-pre-wrap;
+		word-wrap: break-word;
+		color: rgba(42, 42, 42, 0.86);
+		font-size: 1.3rem;
+		font-family: "Seravek", sans-serif;
+	}
+
+}
+@media (max-width: 420px) {
+	.header {
+		color: #6a6a6a;
+		font-size: 1.8rem;
+		letter-spacing: 0.2rem;
+		font-family: "Josefin Sans Bold", sans-serif;
+	}
+
+	.policy {
+		white-space: pre-wrap;
+		white-space: -moz-pre-wrap;
+		white-space: -o-pre-wrap;
+		word-wrap: break-word;
+		color: rgba(42, 42, 42, 0.86);
+		font-size: 1.3rem;
+		font-family: "Seravek", sans-serif;
+	}
 }
