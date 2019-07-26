@@ -21,7 +21,7 @@
 @media (max-width: 420px) {
 	.header {
 		color: #6a6a6a;
-		font-size: 1.8rem;
+		font-size: 1.4rem;
 		letter-spacing: 0.2rem;
 		font-family: "Josefin Sans Bold", sans-serif;
 	}
@@ -32,7 +32,7 @@
 		white-space: -o-pre-wrap;
 		word-wrap: break-word;
 		color: rgba(42, 42, 42, 0.86);
-		font-size: 1.3rem;
+		font-size: 1rem;
 		font-family: "Seravek", sans-serif;
 	}
 }
