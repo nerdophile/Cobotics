@@ -2,7 +2,9 @@
 
 import {Component, OnInit} from '@angular/core';
 import {FormBuilder, Validators} from '@angular/forms';
-import {AngularFireDatabase} from '@angular/fire/database';
+import { AngularFireDatabase } from '@angular/fire/database';
+
+
 
 @Component({
 	selector: 'app-contact',
