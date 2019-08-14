@@ -25,6 +25,9 @@ import {
 } from '@angular/platform-browser/animations';
 import {CookieLawModule} from 'angular2-cookie-law';
 import {enableProdMode} from '@angular/core';
+import {ProductsComponent} from './components/products/products.component';
+import {NgxYoutubePlayerModule} from 'ngx-youtube-player';
+import {DeviceDetectorModule} from 'ngx-device-detector';
 
 
 @NgModule({
@@ -38,6 +41,7 @@ import {enableProdMode} from '@angular/core';
 		MainFooterComponent,
 		LegalComponent,
 		CookiePolicyComponent,
+		ProductsComponent,
 
 	],
 	imports: [
@@ -50,9 +54,9 @@ import {enableProdMode} from '@angular/core';
 		ReactiveFormsModule,
 		AngularFireModule.initializeApp(environment.firebase),
 		AngularFireDatabaseModule,
-		CookieLawModule // import Angular's CookieLaw modules
-
-
+		CookieLawModule, // import Angular's CookieLaw modules
+		NgxYoutubePlayerModule.forRoot(),
+		DeviceDetectorModule.forRoot(),
 	],
 	providers: [],
 

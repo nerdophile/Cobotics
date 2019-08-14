@@ -9,6 +9,7 @@ import {ServicesComponent} from './components/services/services.component';
 import {ContactComponent} from './components/contact/contact.component';
 import {LegalComponent} from './components/legal/legal.component';
 import {CookiePolicyComponent} from './components/cookie-policy/cookie-policy.component';
+import {ProductsComponent} from './components/products/products.component';
 
 
 const appRoutes: Routes = [
@@ -18,7 +19,8 @@ const appRoutes: Routes = [
 	{path: 'contact', component: ContactComponent}, // cobotics-ai/contact
 	{path: 'services', component: ServicesComponent}, // cobotics-ai/services
 	{path: 'legal', component: LegalComponent}, // cobotics-ai/legal
-	{path: 'cookie', component: CookiePolicyComponent} // cobotics-ai/legal
+	{path: 'cookie', component: CookiePolicyComponent}, // cobotics-ai/legal
+	{path: 'products', component: ProductsComponent}
 ];
 
 @NgModule({

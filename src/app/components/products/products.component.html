@@ -1,0 +1,26 @@
+<div class="container text-center ">
+
+	<p class="main-header mt-4 mb-5">TOUCHSTONE</p>
+	<section class="mb-5">
+		<youtube-player
+
+			[width]="width"
+			[height]="height"
+			[videoId]="id"
+			(ready)="savePlayer($event)"
+			(change)="onStateChange($event)"
+			[playerVars]="playerVars">
+		</youtube-player>
+	</section>
+
+	<p class="main-para mb-3">Today we can easily monitor global economic indicators and market indices but the ability
+		to
+		quantify and time their combined impact on current and future state of the business is the real challenge.
+		<br> <br>
+
+		&nbsp;
+		The CoboticsAI Research and Development team has been ideating and prototyping a new platform called TOUCH
+		STONE. A solution which combines your enterprise data with external market influencers to personalize and
+		quantity their current and future impact on your enterprise portfolio and partner strategy.</p>
+
+</div>
