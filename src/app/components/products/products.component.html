@@ -2,15 +2,9 @@
 
 	<p class="main-header mt-4 mb-5">TOUCHSTONE</p>
 	<section class="mb-5">
-		<youtube-player
 
-			[width]="width"
-			[height]="height"
-			[videoId]="id"
-			(ready)="savePlayer($event)"
-			(change)="onStateChange($event)"
-			[playerVars]="playerVars">
-		</youtube-player>
+		<iframe [width]="width" [height]="height" src="https://www.youtube.com/embed/hTUJyIt2j-g?rel=0"
+				frameborder="0"></iframe>
 	</section>
 
 	<div [ngStyle]="{'width.px': width}" [ngClass]="(width == 1000)?'ml-5':'my-class2'">
@@ -21,7 +15,8 @@
 			<br> <br>
 
 			&nbsp;The Cobotics-AI Research and Development team has been ideating and prototyping a new platform called
-			TOUCHSTONE. A solution which combines your enterprise data with external market influencers to personalize and
+			TOUCHSTONE. A solution which combines your enterprise data with external market influencers to personalize
+			and
 			quantity their current and future impact on your enterprise portfolio and partner strategy.</p>
 
 	</div>

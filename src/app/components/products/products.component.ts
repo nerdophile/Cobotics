@@ -8,16 +8,8 @@ import {DeviceDetectorService} from 'ngx-device-detector';
 })
 export class ProductsComponent implements OnInit {
 
-	// @ts-ignore
 
-	playerVars = {
-		cc_lang_pref: 'en'
-	};
-	private player;
-	private ytEvent;
-	public width = 1000;
-	public height = 5000;
-	id = 'hTUJyIt2j-g';
+
 
 
 	constructor(private deviceService: DeviceDetectorService) {
@@ -30,24 +22,11 @@ export class ProductsComponent implements OnInit {
 		} else {
 			this.width = 1000;
 			this.height = 500;
+			// tslint:disable-next-line:indent
 		}
 	}
 
 
-	onStateChange(event) {
-		this.ytEvent = event.data;
-	}
 
-	savePlayer(player) {
-		this.player = player;
-	}
-
-	playVideo() {
-		this.player.playVideo();
-	}
-
-	pauseVideo() {
-		this.player.pauseVideo();
-	}
 
 }
