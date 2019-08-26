@@ -8,8 +8,11 @@ import {DeviceDetectorService} from 'ngx-device-detector';
 })
 export class ProductsComponent implements OnInit {
 
+	// @ts-ignore
 
 
+	public width = 1000;
+	public height = 5000;
 
 
 	constructor(private deviceService: DeviceDetectorService) {
@@ -22,10 +25,8 @@ export class ProductsComponent implements OnInit {
 		} else {
 			this.width = 1000;
 			this.height = 500;
-			// tslint:disable-next-line:indent
 		}
 	}
-
 
 
 

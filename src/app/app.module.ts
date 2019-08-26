@@ -26,7 +26,6 @@ import {
 import {CookieLawModule} from 'angular2-cookie-law';
 import {enableProdMode} from '@angular/core';
 import {ProductsComponent} from './components/products/products.component';
-import {NgxYoutubePlayerModule} from 'ngx-youtube-player';
 import {DeviceDetectorModule} from 'ngx-device-detector';
 
 
@@ -55,7 +54,6 @@ import {DeviceDetectorModule} from 'ngx-device-detector';
 		AngularFireModule.initializeApp(environment.firebase),
 		AngularFireDatabaseModule,
 		CookieLawModule, // import Angular's CookieLaw modules
-		NgxYoutubePlayerModule.forRoot(),
 		DeviceDetectorModule.forRoot(),
 	],
 	providers: [],
