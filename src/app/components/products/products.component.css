@@ -19,6 +19,26 @@
 		font-size: 1.4rem;
 		text-align: left;
 	}
+
+	.sub-title {
+		color: #8b8b8b;
+		letter-spacing: 0.2rem;
+		font-family: "Josefin Sans Bold", sans-serif;
+		font-size: 1.1rem;
+		cursor: pointer;
+	}
+
+	.margin-title {
+		margin-right: 6rem;
+		margin-left: 2rem;
+	}
+
+
+	.sub-title-selected {
+		color: #171717;
+
+	}
+
 }
 
 @media (max-width: 420px) {
@@ -39,7 +59,28 @@
 	}
 
 	div {
+		width: 100%;
 		overflow-x: hidden;
 		overflow-y: auto;
+	}
+
+	.sub-title {
+		color: #8b8b8b;
+		letter-spacing: 0.1rem;
+		font-family: "Josefin Sans Bold", sans-serif;
+		font-size: 0.9rem;
+		cursor: pointer;
+		margin-right: 0;
+	}
+
+	.margin-title {
+		margin-right: 4rem;
+		margin-left: 1rem;
+	}
+
+
+	.sub-title-selected {
+		color: #171717;
+
 	}
 }

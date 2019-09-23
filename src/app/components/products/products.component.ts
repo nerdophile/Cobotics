@@ -8,12 +8,10 @@ import {DeviceDetectorService} from 'ngx-device-detector';
 })
 export class ProductsComponent implements OnInit {
 
-	// @ts-ignore
-
-
 	public width = 1000;
 	public height = 5000;
-
+	public occupation = false;
+	public logistics = true;
 
 	constructor(private deviceService: DeviceDetectorService) {
 	}
@@ -28,5 +26,13 @@ export class ProductsComponent implements OnInit {
 		}
 	}
 
+	onClickLogistics() {
+		this.occupation = false;
+		this.logistics = true;
+	}
 
+	onClickOccupational() {
+		this.logistics = false;
+		this.occupation = true;
+	}
 }
