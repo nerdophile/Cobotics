@@ -1,5 +1,23 @@
-.nav-item{
-	color : #777777;
-	letter-spacing: 0.3rem;
-	font-family: "Josefin Sans Bold", sans-serif;
+
+@media (min-width: 481px) {
+
+	.nav-item {
+		color: #777777;
+		letter-spacing: 0.3rem;
+		font-family: "Josefin Sans Bold", sans-serif;
+		margin-left: 6rem;
+	}
+}
+
+
+
+@media (max-width: 420px) {
+
+	.nav-link {
+		color: #777777;
+		letter-spacing: 0.3rem;
+		font-family: "Josefin Sans Bold", sans-serif;
+		display: flex;
+		justify-content: flex-end;
+	}
 }
