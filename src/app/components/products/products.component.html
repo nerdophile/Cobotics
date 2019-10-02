@@ -1,5 +1,5 @@
-<div class="container text-center mt-4  ">
-	<div class="d-flex justify-content-center mb-4 ">
+<div class="container text-center mt-4 ">
+	<div class="text-center d-flex mb-4 ml-0 pl-0 ">
 		<p class="sub-title margin-title"
 		   (click)="onClickLogistics()"
 		   [ngClass]="logistics ? 'sub-title-selected': 'sub-title'">LOGISTICS & TRANSPORTATION</p>
@@ -7,6 +7,10 @@
 		   (click)="onClickOccupational()"
 		   [ngClass]="occupation ? 'sub-title-selected': 'sub-title'"
 		>OCCUPATIONAL SAFETY AND INCIDENT MANAGEMENT</p>
+		<p class="sub-title"
+		   (click)="onClickSourcing()"
+		   [ngClass]="sourcing ? 'sub-title-selected': 'sub-title'"
+		> SOURCING AND COSTING</p>
 	</div>
 
 	<div class="" *ngIf="logistics">
@@ -43,7 +47,8 @@
 		</section>
 
 		<div [ngStyle]="{'width.px': width}" [ngClass]="(width == 1000)?'ml-5':'my-class2'">
-			<p class="main-para pb-5">  &nbsp; Introducing DEFENDER, an AI system that has been proven to identify and reduce extremely rare
+			<p class="main-para pb-5"> &nbsp; Introducing DEFENDER, an AI system that has been proven to identify and
+				reduce extremely rare
 				Occupational Illness and Injury events by 27-34% in field operations. DEFENDER is an early warning
 				system with the ability to predict I&I incidents well in advance with 93% precision.
 				<br> <br>
@@ -52,6 +57,23 @@
 				where & for whom the assignment is performed. These combined features are studied in-depth by an AI
 				engine to generate early warnings and actionable insights against the risk prone assignments and
 				employees.
+			</p>
+		</div>
+	</div>
+	<div class="" *ngIf="sourcing">
+		<p class="main-header mt-4 mb-5">DEFENDER</p>
+		<section class="mb-5">
+
+			<iframe [width]="width" [height]="height" src="https://www.youtube.com/embed/cf2qTyEGhv8?rel=0"
+					frameborder="0"></iframe>
+		</section>
+
+		<div [ngStyle]="{'width.px': width}" [ngClass]="(width == 1000)?'ml-5':'my-class2'">
+			<p class="main-para pb-5"> &nbsp;Powered by AI, Appraiser application exploits machine’s ability to analyze
+				quotes and rank parters using complex multi-level, multi-criteria decision making algorithms. Rank your
+				carrier partners and their quoted rates in depth eliminating any unintentional cognitive bias and
+				false-consensus effect. In one click of a button, predict, simulate & optimize your spend portfolio,
+				strengthen your partner strategy and create greater value for your products and services.
 			</p>
 		</div>
 	</div>

@@ -24,13 +24,13 @@
 		color: #8b8b8b;
 		letter-spacing: 0.2rem;
 		font-family: "Josefin Sans Bold", sans-serif;
-		font-size: 1.1rem;
+		font-size: 1rem;
 		cursor: pointer;
 	}
 
 	.margin-title {
-		margin-right: 6rem;
-		margin-left: 2rem;
+		margin-right: 0;
+		margin-left: 1rem;
 	}
 
 
@@ -74,8 +74,7 @@
 	}
 
 	.margin-title {
-		margin-right: 4rem;
-		margin-left: 1rem;
+
 	}
 
 

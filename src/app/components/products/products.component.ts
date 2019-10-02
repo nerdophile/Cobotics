@@ -12,6 +12,7 @@ export class ProductsComponent implements OnInit {
 	public height = 5000;
 	public occupation = false;
 	public logistics = true;
+	public sourcing = false;
 
 	constructor(private deviceService: DeviceDetectorService) {
 	}
@@ -29,10 +30,21 @@ export class ProductsComponent implements OnInit {
 	onClickLogistics() {
 		this.occupation = false;
 		this.logistics = true;
+		this.sourcing = false;
+
 	}
 
 	onClickOccupational() {
 		this.logistics = false;
 		this.occupation = true;
+		this.sourcing = false;
+
+	}
+
+	onClickSourcing() {
+		this.logistics = false;
+		this.occupation = false;
+		this.sourcing = true;
+
 	}
 }
