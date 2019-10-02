@@ -1,5 +1,5 @@
 <div class="container text-center mt-4 ">
-	<div class="text-center d-flex mb-4 ml-0 pl-0 ">
+	<div class="text-center  contain mb-4 ml-0 pl-0 ">
 		<p class="sub-title margin-title"
 		   (click)="onClickLogistics()"
 		   [ngClass]="logistics ? 'sub-title-selected': 'sub-title'">LOGISTICS & TRANSPORTATION</p>
@@ -7,7 +7,7 @@
 		   (click)="onClickOccupational()"
 		   [ngClass]="occupation ? 'sub-title-selected': 'sub-title'"
 		>OCCUPATIONAL SAFETY AND INCIDENT MANAGEMENT</p>
-		<p class="sub-title"
+		<p class="sub-title ml-1"
 		   (click)="onClickSourcing()"
 		   [ngClass]="sourcing ? 'sub-title-selected': 'sub-title'"
 		> SOURCING AND COSTING</p>
@@ -61,7 +61,7 @@
 		</div>
 	</div>
 	<div class="" *ngIf="sourcing">
-		<p class="main-header mt-4 mb-5">DEFENDER</p>
+		<p class="main-header mt-4 mb-5">APPRAISER</p>
 		<section class="mb-5">
 
 			<iframe [width]="width" [height]="height" src="https://www.youtube.com/embed/cf2qTyEGhv8?rel=0"
