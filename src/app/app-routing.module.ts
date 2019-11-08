@@ -1,7 +1,6 @@
 // tslint:disable:indent
 
 import {NgModule} from '@angular/core';
-import {CommonModule} from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
 import {HomeComponent} from './components/home/home.component';
 import {AboutComponent} from './components/about/about.component';
@@ -25,7 +24,7 @@ const appRoutes: Routes = [
 
 @NgModule({
 	imports: [RouterModule.forRoot(appRoutes, {
-			scrollPositionRestoration: 'enabled'
+			scrollPositionRestoration: 'enabled', useHash: true
 		}
 	)],
 	exports: [RouterModule]
